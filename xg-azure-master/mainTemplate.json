@@ -4,14 +4,14 @@
     "parameters": {
         "baseUrl": {
             "type": "string",
-            "defaultValue": "https://raw.githubusercontent.com/sophos-iaas/xg-azure/master",
+            "defaultValue": "https://raw.githubusercontent.com/GoDeploy/AZ300/tree/master/xg-azure-master",
             "metadata": {
                 "artifactsBaseUrl": "Base URL of the template package"
             }
         },
         "vmName": {
             "type": "string",
-            "defaultValue": "XG-Firewall",
+            "defaultValue": "myOnPremFW",
             "metadata": {
                 "description": "Name for the Virtual Machine."
             }
@@ -164,7 +164,7 @@
         },
         "location": {
             "type": "string",
-            "defaultValue": "[resourceGroup().Location]",
+            "defaultValue": "southeastasia",
             "metadata": {
                 "description": "Geo-Location you want to deploy to."
             }
