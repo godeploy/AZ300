@@ -36,7 +36,3 @@ Registration
 
 4) Make sure the license is synchronized.
 
-***
-
-Device Setup
-=
