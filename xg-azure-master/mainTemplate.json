@@ -4,7 +4,7 @@
     "parameters": {
         "baseUrl": {
             "type": "string",
-            "defaultValue": "https://raw.githubusercontent.com/GoDeploy/AZ300/tree/master/xg-azure-master",
+            "defaultValue": "https://raw.githubusercontent.com/GoDeploy/AZ300/master/xg-azure-master",
             "metadata": {
                 "artifactsBaseUrl": "Base URL of the template package"
             }
