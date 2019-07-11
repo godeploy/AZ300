@@ -42,7 +42,60 @@
                             "priority": 102,
                             "direction": "Inbound"
                         }
+                    },
+                    {
+                        "name": "allow_50_Out",
+                        "properties": {
+                            "protocol": "tcp",
+                            "sourcePortRange": "*",
+                            "destinationPortRange": "50",
+                            "sourceAddressPrefix": "*",
+                            "destinationAddressPrefix": "*",
+                            "access": "Allow",
+                            "priority": 102,
+                            "direction": "Outbound"
+                        }
+                    },
+                    {
+                        "name": "allow_51_Out",
+                        "properties": {
+                            "protocol": "tcp",
+                            "sourcePortRange": "*",
+                            "destinationPortRange": "51",
+                            "sourceAddressPrefix": "*",
+                            "destinationAddressPrefix": "*",
+                            "access": "Allow",
+                            "priority": 102,
+                            "direction": "Outbound"
+                        }
+                    },
+                    {
+                        "name": "allow_50_In",
+                        "properties": {
+                            "protocol": "tcp",
+                            "sourcePortRange": "*",
+                            "destinationPortRange": "50",
+                            "sourceAddressPrefix": "*",
+                            "destinationAddressPrefix": "*",
+                            "access": "Allow",
+                            "priority": 102,
+                            "direction": "Inbound"
+                        }
+                    },
+                    {
+                        "name": "allow_51_In",
+                        "properties": {
+                            "protocol": "tcp",
+                            "sourcePortRange": "*",
+                            "destinationPortRange": "51",
+                            "sourceAddressPrefix": "*",
+                            "destinationAddressPrefix": "*",
+                            "access": "Allow",
+                            "priority": 102,
+                            "direction": "Inbound"
+                        }
                     }
+                    
                 ]
             }
         }
