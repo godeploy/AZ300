@@ -4,24 +4,28 @@
     "parameters": {
         "adminUsername": {
             "type": "string",
+            "defaultValue":"domainadmin",
             "metadata": {
                 "description": "The name of the administrator account of the new VM and domain"
             }
         },
         "adminPassword": {
             "type": "securestring",
+            "defaultValue":"Pa55w.rd1234",
             "metadata": {
                 "description": "The password for the administrator account of the new VM and domain"
             }
         },
         "domainName": {
             "type": "string",
+            "defaultValue":"domain.local",
             "metadata": {
                 "description": "The FQDN of the Active Directory Domain to be created"
             }
         },
         "dnsPrefix": {
             "type": "string",
+            "defaultValue":"localdomain",
             "metadata": {
                 "description": "The DNS prefix for the public IP address used by the Load Balancer"
             }
@@ -35,6 +39,7 @@
         },
         "_artifactsLocation": {
             "type": "string",
+            "defaultValue":"[deployment().properties.templateLink.uri]",
             "metadata": {
                 "description": "The location of resources, such as templates and DSC modules, that the template depends on"
             },
