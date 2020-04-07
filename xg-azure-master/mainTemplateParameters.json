@@ -9,7 +9,7 @@
             "value": "insertYourPasswordHere"
         },
         "vmSize": {
-            "value": "Standard_A3"
+            "value": "Standard_DS1_v2"
         },
         "netName": {
             "value": "VNET"
